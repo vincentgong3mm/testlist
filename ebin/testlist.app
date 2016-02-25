@@ -1,0 +1,11 @@
+{application,testlist,
+             [{description,[]},
+              {vsn,"1"},
+              {registered,[]},
+              {applications,[kernel,stdlib]},
+              {mod,{testlist_app,[]}},
+              {env,[]},
+              {modules,[studydict,studyets,studylist1,studylist2,studymaps,
+                        studyrandom,studyrecord,testlist_app,testlist_sup,
+                        testrecord,userDataManager,userDataManager_ets,
+                        userDataManager_maps]}]}.

@@ -1,0 +1,3 @@
+-record(characInfo, {characNo=-1, characName="", level=0}).
+-record(accountInfo, {accountId=-1, status=kNone}).
+-record(userInfo, {accountInfo=#accountInfo{}, characInfo=#characInfo{}}).
